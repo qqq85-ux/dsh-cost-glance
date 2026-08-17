@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-17T03:47:45.868Z",
+  "fetchedAt": "2026-08-17T19:41:31.107Z",
   "pricingPage": {
     "status": 200,
     "sha1": "5c1f5004e2cc9e623c9dd84c15d322177dbc08ef"
@@ -9,7 +9,7 @@
     "sha1": "1eebae2f17dcbae1b0fc405b6aa841a0cfdcec22"
   },
   "extracted": {
-    "extractedAt": "2026-08-17T03:47:45.868Z",
+    "extractedAt": "2026-08-17T19:41:31.107Z",
     "models": [
       {
         "name": "deepseek-v4-flash",
