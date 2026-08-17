@@ -1,0 +1,5 @@
+# dsh-cost-glance bundle patch —— 把会话费用速览引擎插入 profile 插件层。
+# 条目 name 必须用裸包名（main 指向引擎），客户端模块扫描按「条目名 = 包名」匹配。
+- insert:
+    - id: dsh-cost-glance
+      name: dsh-cost-glance

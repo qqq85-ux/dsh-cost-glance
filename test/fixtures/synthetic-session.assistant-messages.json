@@ -1,0 +1,1019 @@
+[
+ {
+  "type": "assistant/message",
+  "seq": 0,
+  "time": 1786864257000,
+  "data": {
+   "turn": 1,
+   "step": 0,
+   "usage": {
+    "inputTokens": 368,
+    "outputTokens": 1161,
+    "cacheReadTokens": 246786,
+    "reasoningTokens": 351
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 1,
+  "time": 1786868111000,
+  "data": {
+   "turn": 1,
+   "step": 1,
+   "usage": {
+    "inputTokens": 178,
+    "outputTokens": 691,
+    "cacheReadTokens": 297120,
+    "reasoningTokens": 256
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 2,
+  "time": 1786935300000,
+  "data": {
+   "turn": 2,
+   "step": 0,
+   "usage": {
+    "inputTokens": 280,
+    "outputTokens": 380,
+    "cacheReadTokens": 240166,
+    "reasoningTokens": 192
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 3,
+  "time": 1786935305673,
+  "data": {
+   "turn": 2,
+   "step": 1,
+   "usage": {
+    "inputTokens": 87,
+    "outputTokens": 1337,
+    "cacheReadTokens": 136630,
+    "reasoningTokens": 796
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 6,
+  "time": 1786935318976,
+  "data": {
+   "turn": 2,
+   "step": 4,
+   "usage": {
+    "inputTokens": 456,
+    "outputTokens": 2525,
+    "cacheReadTokens": 424983,
+    "reasoningTokens": 433
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 4,
+  "time": 1786935323940,
+  "data": {
+   "turn": 2,
+   "step": 2,
+   "usage": {
+    "inputTokens": 96,
+    "outputTokens": 765,
+    "cacheReadTokens": 318595,
+    "reasoningTokens": 643
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 5,
+  "time": 1786935325239,
+  "data": {
+   "turn": 2,
+   "step": 3,
+   "usage": {
+    "inputTokens": 228,
+    "outputTokens": 1323,
+    "cacheReadTokens": 386040
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 14,
+  "time": 1786935339108,
+  "data": {
+   "turn": 2,
+   "step": 12,
+   "usage": {
+    "inputTokens": 249,
+    "outputTokens": 2258,
+    "cacheReadTokens": 312185
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 7,
+  "time": 1786935347475,
+  "data": {
+   "turn": 2,
+   "step": 5,
+   "usage": {
+    "inputTokens": 357,
+    "outputTokens": 1170,
+    "cacheReadTokens": 368050
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 13,
+  "time": 1786935350171,
+  "data": {
+   "turn": 2,
+   "step": 11,
+   "usage": {
+    "inputTokens": 390,
+    "outputTokens": 1577,
+    "cacheReadTokens": 279314,
+    "reasoningTokens": 292
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 8,
+  "time": 1786935367404,
+  "data": {
+   "turn": 2,
+   "step": 6,
+   "usage": {
+    "inputTokens": 399,
+    "outputTokens": 356,
+    "cacheReadTokens": 383811
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 9,
+  "time": 1786935367809,
+  "data": {
+   "turn": 2,
+   "step": 7,
+   "usage": {
+    "inputTokens": 168,
+    "outputTokens": 324,
+    "cacheReadTokens": 276604,
+    "reasoningTokens": 647
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 12,
+  "time": 1786935371650,
+  "data": {
+   "turn": 2,
+   "step": 10,
+   "usage": {
+    "inputTokens": 310,
+    "outputTokens": 2954,
+    "cacheReadTokens": 424196,
+    "reasoningTokens": 614
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 10,
+  "time": 1786935374904,
+  "data": {
+   "turn": 2,
+   "step": 8,
+   "usage": {
+    "inputTokens": 65,
+    "outputTokens": 1297,
+    "cacheReadTokens": 231115,
+    "reasoningTokens": 724
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 19,
+  "time": 1786935376619,
+  "data": {
+   "turn": 2,
+   "step": 17,
+   "usage": {
+    "inputTokens": 399,
+    "outputTokens": 1085,
+    "cacheReadTokens": 370618,
+    "reasoningTokens": 176
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 25,
+  "time": 1786935378269,
+  "data": {
+   "turn": 3,
+   "step": 3,
+   "usage": {
+    "inputTokens": 113,
+    "outputTokens": 1162,
+    "cacheReadTokens": 166950
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 30,
+  "time": 1786935384504,
+  "data": {
+   "turn": 3,
+   "step": 8,
+   "usage": {
+    "inputTokens": 353,
+    "outputTokens": 1482,
+    "cacheReadTokens": 138995
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 11,
+  "time": 1786935397695,
+  "data": {
+   "turn": 2,
+   "step": 9,
+   "usage": {
+    "inputTokens": 412,
+    "outputTokens": 2561,
+    "cacheReadTokens": 81401,
+    "reasoningTokens": 897
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 23,
+  "time": 1786935409725,
+  "data": {
+   "turn": 3,
+   "step": 1,
+   "usage": {
+    "inputTokens": 410,
+    "outputTokens": 1689,
+    "cacheReadTokens": 281450,
+    "reasoningTokens": 507
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 16,
+  "time": 1786935415402,
+  "data": {
+   "turn": 2,
+   "step": 14,
+   "usage": {
+    "inputTokens": 324,
+    "outputTokens": 965,
+    "cacheReadTokens": 300437,
+    "reasoningTokens": 327
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 36,
+  "time": 1786935420700,
+  "data": {
+   "turn": 3,
+   "step": 14,
+   "usage": {
+    "inputTokens": 500,
+    "outputTokens": 745,
+    "cacheReadTokens": 327366
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 15,
+  "time": 1786935422538,
+  "data": {
+   "turn": 2,
+   "step": 13,
+   "usage": {
+    "inputTokens": 466,
+    "outputTokens": 791,
+    "cacheReadTokens": 90664,
+    "reasoningTokens": 198
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 40,
+  "time": 1786935424678,
+  "data": {
+   "turn": 3,
+   "step": 18,
+   "usage": {
+    "inputTokens": 138,
+    "outputTokens": 2144,
+    "cacheReadTokens": 111771,
+    "reasoningTokens": 454
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 18,
+  "time": 1786935435728,
+  "data": {
+   "turn": 2,
+   "step": 16,
+   "usage": {
+    "inputTokens": 135,
+    "outputTokens": 1343,
+    "cacheReadTokens": 376250,
+    "reasoningTokens": 872
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 43,
+  "time": 1786935439646,
+  "data": {
+   "turn": 4,
+   "step": 1,
+   "usage": {
+    "inputTokens": 183,
+    "outputTokens": 1589,
+    "cacheReadTokens": 303843,
+    "reasoningTokens": 136
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 29,
+  "time": 1786935440589,
+  "data": {
+   "turn": 3,
+   "step": 7,
+   "usage": {
+    "inputTokens": 339,
+    "outputTokens": 255,
+    "cacheReadTokens": 184866,
+    "reasoningTokens": 222
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 26,
+  "time": 1786935441648,
+  "data": {
+   "turn": 3,
+   "step": 4,
+   "usage": {
+    "inputTokens": 390,
+    "outputTokens": 2661,
+    "cacheReadTokens": 216840,
+    "reasoningTokens": 541
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 24,
+  "time": 1786935441856,
+  "data": {
+   "turn": 3,
+   "step": 2,
+   "usage": {
+    "inputTokens": 361,
+    "outputTokens": 1938,
+    "cacheReadTokens": 437945,
+    "reasoningTokens": 276
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 17,
+  "time": 1786935478350,
+  "data": {
+   "turn": 2,
+   "step": 15,
+   "usage": {
+    "inputTokens": 478,
+    "outputTokens": 1160,
+    "cacheReadTokens": 313574,
+    "reasoningTokens": 433
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 20,
+  "time": 1786935498162,
+  "data": {
+   "turn": 2,
+   "step": 18,
+   "usage": {
+    "inputTokens": 384,
+    "outputTokens": 2502,
+    "cacheReadTokens": 80325,
+    "reasoningTokens": 539
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 22,
+  "time": 1786935499660,
+  "data": {
+   "turn": 3,
+   "step": 0,
+   "usage": {
+    "inputTokens": 166,
+    "outputTokens": 1449,
+    "cacheReadTokens": 400378,
+    "reasoningTokens": 615
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 28,
+  "time": 1786935511354,
+  "data": {
+   "turn": 3,
+   "step": 6,
+   "usage": {
+    "inputTokens": 473,
+    "outputTokens": 1883,
+    "cacheReadTokens": 296548
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 21,
+  "time": 1786935523668,
+  "data": {
+   "turn": 2,
+   "step": 19,
+   "usage": {
+    "inputTokens": 414,
+    "outputTokens": 2188,
+    "cacheReadTokens": 217117
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 41,
+  "time": 1786935537315,
+  "data": {
+   "turn": 3,
+   "step": 19,
+   "usage": {
+    "inputTokens": 481,
+    "outputTokens": 2393,
+    "cacheReadTokens": 88446
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 45,
+  "time": 1786935579070,
+  "data": {
+   "turn": 4,
+   "step": 3,
+   "usage": {
+    "inputTokens": 423,
+    "outputTokens": 1573,
+    "cacheReadTokens": 250628
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 46,
+  "time": 1786935585560,
+  "data": {
+   "turn": 4,
+   "step": 4,
+   "usage": {
+    "inputTokens": 338,
+    "outputTokens": 1661,
+    "cacheReadTokens": 446083,
+    "reasoningTokens": 149
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 35,
+  "time": 1786935591786,
+  "data": {
+   "turn": 3,
+   "step": 13,
+   "usage": {
+    "inputTokens": 443,
+    "outputTokens": 1469,
+    "cacheReadTokens": 172339,
+    "reasoningTokens": 406
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 33,
+  "time": 1786935594004,
+  "data": {
+   "turn": 3,
+   "step": 11,
+   "usage": {
+    "inputTokens": 62,
+    "outputTokens": 786,
+    "cacheReadTokens": 144458
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 27,
+  "time": 1786935599175,
+  "data": {
+   "turn": 3,
+   "step": 5,
+   "usage": {
+    "inputTokens": 357,
+    "outputTokens": 1204,
+    "cacheReadTokens": 445562
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 31,
+  "time": 1786935640634,
+  "data": {
+   "turn": 3,
+   "step": 9,
+   "usage": {
+    "inputTokens": 486,
+    "outputTokens": 1053,
+    "cacheReadTokens": 204155,
+    "reasoningTokens": 757
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 32,
+  "time": 1786935641490,
+  "data": {
+   "turn": 3,
+   "step": 10,
+   "usage": {
+    "inputTokens": 229,
+    "outputTokens": 1481,
+    "cacheReadTokens": 259734
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 38,
+  "time": 1786935644052,
+  "data": {
+   "turn": 3,
+   "step": 16,
+   "usage": {
+    "inputTokens": 385,
+    "outputTokens": 1995,
+    "cacheReadTokens": 235835,
+    "reasoningTokens": 472
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 37,
+  "time": 1786935645520,
+  "data": {
+   "turn": 3,
+   "step": 15,
+   "usage": {
+    "inputTokens": 424,
+    "outputTokens": 1651,
+    "cacheReadTokens": 64293,
+    "reasoningTokens": 715
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 44,
+  "time": 1786935664602,
+  "data": {
+   "turn": 4,
+   "step": 2,
+   "usage": {
+    "inputTokens": 66,
+    "outputTokens": 430,
+    "cacheReadTokens": 277395,
+    "reasoningTokens": 877
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 42,
+  "time": 1786935681440,
+  "data": {
+   "turn": 4,
+   "step": 0,
+   "usage": {
+    "inputTokens": 142,
+    "outputTokens": 2528,
+    "cacheReadTokens": 358116
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 34,
+  "time": 1786935682912,
+  "data": {
+   "turn": 3,
+   "step": 12,
+   "usage": {
+    "inputTokens": 140,
+    "outputTokens": 1685,
+    "cacheReadTokens": 162340
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ },
+ {
+  "type": "assistant/message",
+  "seq": 39,
+  "time": 1786935742631,
+  "data": {
+   "turn": 3,
+   "step": 17,
+   "usage": {
+    "inputTokens": 132,
+    "outputTokens": 1009,
+    "cacheReadTokens": 236161
+   },
+   "message": {
+    "source": {
+     "kind": "model",
+     "provider": "deepseek-official",
+     "model": "deepseek-v4-flash"
+    }
+   }
+  }
+ }
+]

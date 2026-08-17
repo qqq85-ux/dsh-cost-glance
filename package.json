@@ -1,0 +1,64 @@
+{
+  "name": "dsh-cost-glance",
+  "version": "0.1.0-beta.1",
+  "description": "会话费用速览 (DSH Cost Glance)：根据 DeepSeek 官方定价、模型、缓存命中情况和请求发生时段，实时计算并展示当前 DSH 会话的预估费用",
+  "type": "module",
+  "main": "./engines/cost-glance.mjs",
+  "license": "MIT",
+  "author": "Yanzhen Qu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqq85-ux/dsh-cost-glance.git"
+  },
+  "homepage": "https://github.com/qqq85-ux/dsh-cost-glance#readme",
+  "bugs": {
+    "url": "https://github.com/qqq85-ux/dsh-cost-glance/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "billing",
+    "cost",
+    "usage",
+    "token",
+    "cost-glance"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./engines/cost-glance.mjs",
+    "./engines/*": "./engines/*",
+    "./client": "./client/badge.js",
+    "./pricing/*": "./pricing/*",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:tz": "TZ=UTC node --test && TZ=Asia/Tokyo node --test && TZ=America/New_York node --test",
+    "reconcile": "node scripts/reconcile-official-balance.mjs",
+    "check:pricing": "node scripts/check-deepseek-pricing.mjs"
+  },
+  "files": [
+    "engines",
+    "client",
+    "pricing",
+    "cordis.patch.yml",
+    "LICENSE",
+    "README.md"
+  ]
+}

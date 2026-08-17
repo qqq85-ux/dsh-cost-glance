@@ -1,0 +1,49 @@
+# dsh-cost-glance 每日官方价格监控
+#
+# 目标：每天集中检查一次 DeepSeek 官方价格页，变化时开 Issue 提醒人工审核。
+# 禁止自动合并、自动发布、未经审核直接让用户端生效。
+#
+# 时区说明：GitHub Actions 的 cron 一律按 UTC 解释，不支持 timezone 键。
+# 北京时间 03:17 = UTC 前一日 19:17，因此写成 "17 19 * * *"。
+# （若未来 Actions 支持 timezone，可改回 cron "17 3 * * *" + timezone Asia/Shanghai。）
+name: check-deepseek-pricing
+
+on:
+  schedule:
+    - cron: "17 19 * * *" # = 北京时间次日 03:17
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 运行价格检查脚本（抓取/提取/对比/开 Issue/跑测试）
+        run: node scripts/check-deepseek-pricing.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 存档快照与 Diff（供人工审核）
+        uses: actions/upload-artifact@v4
+        with:
+          name: pricing-snapshots
+          path: .pricing/
+          if-no-files-found: ignore
+
+      - name: 有变化时提交快照到仓库
+        if: ${{ hashFiles('.pricing/**') != '' }}
+        run: |
+          git config user.name "dsh-cost-glance bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .pricing/
+          git diff --cached --quiet || git commit -m "chore: 价格快照更新 $(date +%F)"
+          git push

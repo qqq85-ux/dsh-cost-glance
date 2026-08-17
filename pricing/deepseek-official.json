@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": "2026-08-17.1",
+  "sourceUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "sourceCheckedAt": "2026-08-17T11:39:00+08:00",
+  "currency": "CNY",
+  "unit": "per_1M_tokens",
+  "timezone": "Asia/Shanghai",
+  "periods": {
+    "peak": [[9, 12], [14, 18]],
+    "offPeak": "complement"
+  },
+  "models": {
+    "deepseek-v4-flash": { "displayName": "DeepSeek V4 Flash" },
+    "deepseek-v4-pro": { "displayName": "DeepSeek V4 Pro" }
+  },
+  "rules": [
+    {
+      "model": "deepseek-v4-flash",
+      "effectiveFrom": null,
+      "effectiveTo": "2026-08-16T23:59:59.999+08:00",
+      "status": "historical",
+      "prices": {
+        "flat": { "cacheHitInput": 0.02, "cacheMissInput": 1, "output": 2 }
+      }
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "effectiveFrom": "2026-08-17T00:00:00+08:00",
+      "effectiveTo": null,
+      "status": "active",
+      "prices": {
+        "peak": { "cacheHitInput": 0.1, "cacheMissInput": 3, "output": 9 },
+        "offPeak": { "cacheHitInput": 0.05, "cacheMissInput": 1.5, "output": 4.5 }
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "effectiveFrom": null,
+      "effectiveTo": "2026-08-16T23:59:59.999+08:00",
+      "status": "historical",
+      "prices": {
+        "flat": { "cacheHitInput": 0.025, "cacheMissInput": 3, "output": 6 }
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "effectiveFrom": "2026-08-17T00:00:00+08:00",
+      "effectiveTo": null,
+      "status": "active",
+      "prices": {
+        "peak": { "cacheHitInput": 0.3, "cacheMissInput": 9, "output": 27 },
+        "offPeak": { "cacheHitInput": 0.15, "cacheMissInput": 4.5, "output": 13.5 }
+      }
+    }
+  ],
+  "status": "active",
+  "notes": "2026-08-17 起官方采用峰谷定价（高峰=北京时间 09:00-12:00、14:00-18:00，价格翻倍；其余为空闲半价）。deepseek-chat / deepseek-reasoner 已不在官方价格表，不自动计价。核验依据官方价格页与更新日志。"
+}
