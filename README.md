@@ -1,7 +1,8 @@
 # 会话费用速览（DSH Cost Glance）
 
-> **Early Preview（v0.1.0-beta.1）** —— 功能可用，但仍在验证期：
-> 尚未完成与 DeepSeek 官方余额的真实对账与浏览器端到端验收，发布前请阅读本说明。
+> **Early Preview（v0.1.0-beta.1）** —— 功能可用，核心验证已完成：
+> DeepSeek 官方余额手工核对、macOS 真实 Web 界面验证（顶栏徽标与 Popover）均已通过。
+> 显示的是**当前会话预估费用**，以 DeepSeek 官方账单为准。
 
 本插件显示的是**当前会话的预估费用**：根据 DeepSeek 官方定价、模型、缓存命中情况和
 API 请求发生时段，实时计算并展示当前 DSH 会话的预估金额。它**不是**账户余额工具、
@@ -16,7 +17,7 @@ API 请求发生时段，实时计算并展示当前 DSH 会话的预估金额�
 - 峰谷时段按北京时间自动识别（高峰 09:00-12:00、14:00-18:00，左闭右开）
 - 内部用整数 nanoYuan 累计，禁止浮点误差
 
-**已验证环境**：DSH 0.1.0-rc.6 · Node ≥ 18 · macOS Web Profile（`@deepseek-ai/dsh-web-app`）。
+**已验证环境**：DSH 0.1.0-rc.6 · Node ≥ 18 · macOS Web Profile（`@deepseek-ai/dsh-web-app`）——已在 macOS 真实 Web 界面验证顶栏徽标与 Popover，并完成 DeepSeek 官方余额手工核对。
 **已知限制**：见文末「已知边界」；官方账单与插件不一致时，以 DeepSeek 官方为准。
 
 ## 数据来源与计费口径
@@ -49,10 +50,12 @@ API 请求发生时段，实时计算并展示当前 DSH 会话的预估金额�
 
 ## 安装
 
-DSH Profile 插件管理需要 **pnpm**。推荐用 DSH 官方插件方式安装并锁定 tag：
+DSH Profile 插件管理需要 **pnpm**。推荐安装方式（锁定 tag `v0.1.0-beta.1`）：
 
 ```bash
-dsh plugin --profile web add github:YOUR_GITHUB_USERNAME/dsh-cost-glance#v0.1.0
+npm install -g pnpm
+npx -y @deepseek-ai/dsh@0.1.0-rc.6 plugin --profile web add github:qqq85-ux/dsh-cost-glance#v0.1.0-beta.1
+npx -y @deepseek-ai/dsh@0.1.0-rc.6 web
 ```
 
 或手动：把仓库加入 profile 依赖后重启 DSH：
@@ -60,13 +63,13 @@ dsh plugin --profile web add github:YOUR_GITHUB_USERNAME/dsh-cost-glance#v0.1.0
 ```jsonc
 // ~/.dsh/profiles/<name>/package.json
 {
-  "dependencies": { "dsh-cost-glance": "github:YOUR_GITHUB_USERNAME/dsh-cost-glance#v0.1.0" },
+  "dependencies": { "dsh-cost-glance": "github:qqq85-ux/dsh-cost-glance#v0.1.0-beta.1" },
   "dsh": { "profile": { "bundles": ["@deepseek-ai/dsh-base", "@deepseek-ai/dsh-web-app", "dsh-cost-glance"] } }
 }
 ```
 
 > 插件集变更需重启 `dsh web`；仅改前端文件后刷新页面即可。
-> 安装/升级后先跑一遍 `npm test` 确认计价正常。
+> 本仓库发布前已通过 25 项自动测试；普通用户安装后无需运行测试，重启 DSH 并完成一次模型调用即可验证。
 
 ## 配置
 
@@ -139,7 +142,7 @@ npm run check:pricing          # 本地手动触发一次价格监控
 
 ## 已知边界（未覆盖）
 
-- 真实余额对账、干净安装/卸载恢复端到端验证未完成（需真实账户与重启环境）——完成前不宣称可公开发布。
+- Windows / Linux 环境尚未验证（本机仅验证 macOS）。
 - 非 DeepSeek 官方 Provider 的自定义计价（V2 设计项）。
 - 远程价格规则自动校验更新（保留接口设计，无占位实现）。
 - 不同货币的自动换算。
