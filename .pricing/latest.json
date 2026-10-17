@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-16T22:04:47.328Z",
+  "fetchedAt": "2026-10-17T21:27:22.207Z",
   "pricingPage": {
     "status": 200,
-    "sha1": "25af7a63d61c892bb8a224a0c514e00db97a7dcd"
+    "sha1": "5cf10bf082158dc9c835eaf87ff93f66890547b0"
   },
   "updatesPage": {
     "status": 200,
-    "sha1": "e11e3c43483775e2c5b2ed4a47c235ae8b088774"
+    "sha1": "81483c7ea767e39897a8bcee3e4473e60136c766"
   },
   "extracted": null
 }
