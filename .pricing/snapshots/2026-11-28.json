@@ -1,0 +1,12 @@
+{
+  "fetchedAt": "2026-11-28T01:57:58.727Z",
+  "pricingPage": {
+    "status": 200,
+    "sha1": "89c27c9029512e7ad1a452d2b5d1bb3fb96eb78f"
+  },
+  "updatesPage": {
+    "status": 200,
+    "sha1": "f8eb8ae1a0018ca1b9bb67dc009cc0d23120f06e"
+  },
+  "extracted": null
+}
